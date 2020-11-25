@@ -1,0 +1,18 @@
+<div class="board">
+  <div class="canvas-container">
+    <canvas #canvasElement class="canvas-element"></canvas>
+  </div>
+  <div class="game">
+    <div class="game-info">
+      <h1>Tetris</h1>
+      <div class="game-scores">
+        <p class="score-property total-scrope">Score: <span class="score-property-value">0</span></p>
+        <p class="score-property total-scrope">Lines: <span class="score-property-value">0</span></p>
+        <p class="score-property total-scrope">Level: <span class="score-property-value">0</span></p>
+      </div>
+    </div>
+    <div class="game-actions">
+      <button class="button play-button" (click)="onClickPlayButton()">Play</button>
+    </div>
+  </div>
+</div>
